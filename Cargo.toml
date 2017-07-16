@@ -1,0 +1,11 @@
+[package]
+name = "same-lib"
+version = "0.1.0"
+authors = ["Peter Beard <peter@peterbeard.co>"]
+description = "Library for encoding/decoding EAS Specific Area Message Encoding (SAME) messages."
+
+[dependencies]
+dft = "0.5.4"
+
+[dev-dependencies]
+rand = "0.3"
